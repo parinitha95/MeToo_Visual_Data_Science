@@ -1,0 +1,31 @@
+chr,label,start,end,value
+UNIGRAMS,cosby,0,1,29.0
+UNIGRAMS,assault,1,2,23.0
+UNIGRAMS,constand,2,3,19.0
+UNIGRAMS,accusers,3,4,15.0
+UNIGRAMS,allegations,4,5,11.0
+BIGRAMS,andrea constand,0,1,9.0
+BIGRAMS,sexually assaulting,1,2,7.0
+BIGRAMS,comedian cosby,2,3,6.0
+BIGRAMS,assault retrial,3,4,5.0
+BIGRAMS,cosby assault,4,5,4.0
+TRIGRAMS,aggravated indecent assault,0,1,8.0
+TRIGRAMS,counts aggravated indecent,1,2,4.0
+TRIGRAMS,judge steven o'neill,2,3,3.0
+TRIGRAMS,drugging sexually assaulting,3,4,2.0
+TRIGRAMS,sexually violent predator,4,5,1.0
+PEOPLE,Bill Cosby,0,1,28.0
+PEOPLE,Andrea Constand,1,2,25.0
+PEOPLE,Harvey Weinstein,2,3,24.0
+PEOPLE,Donald Trump,3,4,17.0
+PEOPLE,Janice Dickinson,4,5,10.0
+ORGANIZATION,Temple University,0,1,22.0
+ORGANIZATION,New York Times,1,2,16.0
+ORGANIZATION,Supreme Court,2,3,14.0
+ORGANIZATION,Associated Press,3,4,13.0
+ORGANIZATION,Fox News,4,5,12.0
+THEME,crime and criminals,0,1,27.0
+THEME,sex crimes,1,2,26.0
+THEME,women,2,3,21.0
+THEME,decisions and verdicts,3,4,20.0
+THEME,sentences (criminal),4,5,18.0

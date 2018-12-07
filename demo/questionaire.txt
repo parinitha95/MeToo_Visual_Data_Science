@@ -1,0 +1,9 @@
+What is the overall feedback do you have about using the website?
+
+What feedback do you have about the design and visual encoding used to represent the data?
+
+Are there any glitches, bugs that you observed while using the website?
+
+How intuitive was the data and visual encodings to interpret without help?
+
+How easy was the interface to use and how intuitive was the website in understanding and performing different tasks?

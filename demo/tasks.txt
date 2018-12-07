@@ -1,0 +1,12 @@
+1. What is the least popular theme in Brett Kavanaugh articles 
+
+2. What are the top 5 organizations occurring in Kevin Spacey articles?
+
+3. What is the count of unigrams that have highest distribution in both articles relating to #MeToo and Sexual Harassment?
+
+4. Name the person who is mentioned the most in both #MeToo articles and Sexual Harassment articles.
+
+5. Find the top organization mentioned in #meToo articles and top organization mentioned in Christine Blasey Ford articles.
+
+6. Find the word which has highest distribution in right leaning articles but is never mentioned in the left leaning articles related to #MeToo
+

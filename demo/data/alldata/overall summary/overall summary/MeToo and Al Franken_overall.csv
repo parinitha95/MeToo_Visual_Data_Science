@@ -1,0 +1,31 @@
+chr,label,start,end,value
+UNIGRAMS,allegations,0,1,16.0
+UNIGRAMS,franken,1,2,12.0
+UNIGRAMS,trump,2,3,10.0
+UNIGRAMS,democrats,3,4,10.0
+UNIGRAMS,harassment,4,5,9.0
+BIGRAMS,roy moore,0,1,8.0
+BIGRAMS,weinstein allegations,1,2,7.0
+BIGRAMS,franken d-minn,2,3,6.0
+BIGRAMS,misconduct allegations,3,4,4.0
+BIGRAMS,misconduct weinstein,4,5,3.0
+TRIGRAMS,misconduct weinstein allegations,0,1,5.0
+TRIGRAMS,senate roy moore,1,2,2.0
+TRIGRAMS,harassment weinstein allegations,2,3,2.0
+TRIGRAMS,matt lauer kevin,3,4,1.0
+TRIGRAMS,lauer kevin spacey,4,5,1.0
+PEOPLE,Al Franken,0,1,27.0
+PEOPLE,Harvey Weinstein,1,2,22.0
+PEOPLE,Roy Moore,2,3,18.0
+PEOPLE,Donald Trump,3,4,17.0
+PEOPLE,Hillary Clinton,4,5,11.0
+ORGANIZATION,Senate,0,1,23.0
+ORGANIZATION,Congress,1,2,20.0
+ORGANIZATION,House,2,3,15.0
+ORGANIZATION,New York Times,3,4,14.0
+ORGANIZATION,White House,4,5,13.0
+THEME,politics and government,0,1,26.0
+THEME,crime and criminals,1,2,25.0
+THEME,sex crimes,2,3,24.0
+THEME,women,3,4,21.0
+THEME,united states politics and government,4,5,19.0

@@ -1,0 +1,8 @@
+[
+  {"id":"UNIGRAMS","label":"UNIGRAMS","color":"#f4e75d","len":5},
+  {"id":"BIGRAMS","label":"BIGRAMS","color":"#666600","len":5},
+  {"id":"TRIGRAMS","label":"TRIGRAMS","color":"#99991E","len":5},
+  {"id":"PEOPLE","label":"PEOPLE","color":"#CC0000","len":5},
+  {"id":"ORGANIZATION","label":"ORGANIZATION","color":"#FF0000","len":5},
+  {"id":"THEME","label":"THEME","color":"#996600","len":5}
+]

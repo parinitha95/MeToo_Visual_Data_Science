@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <style>
+      rect.bordered {
+        stroke: #E6E6E6;
+        stroke-width:2px;   
+      }
+
+      div.tooltip {
+            /* position: absolute; */
+            text-align: center;
+            width: 4vw;
+            height: 1vw;
+            font: 100% sans-serif;
+            background: white;
+            border: 0;
+            border-radius: 2%;
+            padding-top: 0.1%;
+            /* pointer-events: none; */
+        }
+
+      text.mono {
+        font-size: 9pt;
+        font-family: Consolas, courier;
+        fill: #000;
+      }
+
+      text.axis-workweek {
+        fill: #000;
+      }
+
+      text.axis-worktime {
+        fill: #000;
+      }
+
+      .chart .legend {
+  fill: black;
+  font: 14px sans-serif;
+  text-anchor: start;
+  font-size: 12px;
+}
+
+.d3-tip {
+line-height: 1;
+font-weight: bold;
+padding: 12px;
+background: rgba(0, 0, 0, 0.8);
+color: #fff;
+border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+box-sizing: border-box;
+display: inline;
+font-size: 10px;
+width: 100%;
+line-height: 1;
+color: rgba(0, 0, 0, 0.8);
+content: "\25BC";
+position: absolute;
+text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+margin: -1px 0 0 0;
+top: 100%;
+left: 0;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.chart .label {
+  fill: black;
+  font: 14px sans-serif;
+  text-anchor: end;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #aa4b14;
+  color: white;
+}
+    </style>
+     <script src="https://d3js.org/d3.v3.min.js"></script>
+     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="comparebar.js"></script>
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+  </head>
+
+  <body>
+        <div class="topnav">
+                <a href="index.html">Home</a>
+                <a class="active" href="comparison.html">Compare Articles</a>
+        </div> 
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <h4>Choose Article 1: </h4><select autocomplete="off" id="article1-choice" onchange="callcharts();">
+                    <option selected value='MeToo'>#MeToo</option>
+                    <option value='Sexual Harassment'>Sexual Harassment</option>
+                    <option value='Al Franken'>Al Franken</option>
+                    <option value='Aziz Ansari'>Aziz Ansari</option>
+                    <option value='Bill Cosby'>Bill Cosby</option>
+                    <option value='Brett Kavanaugh'>Brett Kavanaugh</option>
+                    <option value='Christine Blasey Ford'>Christine Blasey Ford</option>
+                    <option value='Kevin Spacey'>Kevin Spacey</option>
+                    <option value='Louis C.K'>Louis C.K</option>
+                    <option value='Roger Ailes'>Roger Ailes</option>
+                    <option value='Roy Moore'>Roy Moore</option>
+                    <option value='MeToo and Al Franken'>MeToo and Al Franken</option>
+                    <option value='MeToo and Aziz Ansari'>MeToo and Aziz Ansari</option>
+                    <option value='MeToo and Bill Cosby'>MeToo and Bill Cosby</option>
+                    <option value='MeToo and Brett Kavanaugh'>MeToo and Brett Kavanaugh</option>
+                    <option value='MeToo and Christine Blasey Ford'>MeToo and Christine Blasey Ford</option>
+                    <option value='MeToo and Kevin Spacey'>MeToo and Kevin Spacey</option>
+                    <option value='MeToo and Louis C.K'>MeToo and Louis C.K</option>
+                    <option value='MeToo and Roger Ailes'>MeToo and Roger Ailes</option>
+                    <option value='MeToo and Roy Moore'>MeToo and Roy Moore</option>                  
+                  </select>
+            </div>
+            <div class="col-md-4">
+                  <h4>Choose Article 2: </h4><select autocomplete="off" id="article2-choice" onchange="callcharts();">
+                        <option value='MeToo'>#MeToo</option>
+                        <option selected value='Sexual Harassment'>Sexual Harassment</option>
+                        <option value='Al Franken'>Al Franken</option>
+                        <option value='Aziz Ansari'>Aziz Ansari</option>
+                        <option value='Bill Cosby'>Bill Cosby</option>
+                        <option value='Brett Kavanaugh'>Brett Kavanaugh</option>
+                        <option value='Christine Blasey Ford'>Christine Blasey Ford</option>
+                        <option value='Kevin Spacey'>Kevin Spacey</option>
+                        <option value='Louis C.K'>Louis C.K</option>
+                        <option value='Roger Ailes'>Roger Ailes</option>
+                        <option value='Roy Moore'>Roy Moore</option>
+                        <option value='MeToo and Al Franken'>MeToo and Al Franken</option>
+                        <option value='MeToo and Aziz Ansari'>MeToo and Aziz Ansari</option>
+                        <option value='MeToo and Bill Cosby'>MeToo and Bill Cosby</option>
+                        <option value='MeToo and Brett Kavanaugh'>MeToo and Brett Kavanaugh</option>
+                        <option value='MeToo and Christine Blasey Ford'>MeToo and Christine Blasey Ford</option>
+                        <option value='MeToo and Kevin Spacey'>MeToo and Kevin Spacey</option>
+                        <option value='MeToo and Louis C.K'>MeToo and Louis C.K</option>
+                        <option value='MeToo and Roger Ailes'>MeToo and Roger Ailes</option>
+                        <option value='MeToo and Roy Moore'>MeToo and Roy Moore</option>                  
+                      </select>
+                </div>
+                <div class="col-md-4">
+                      <h4>Select Category: </h4>
+                      <select autocomplete="off" id="category-choice" onchange="callcharts();">
+                            <option value='unigram' selected>Unigrams</option>
+                            <option value='bigram'>Bigrams</option>
+                            <option value='trigram'>Trigrams</option>
+                            <option value='people'>People</option>
+                            <option value='organization'>Organization</option>
+                            <option value='theme'>Themes</option>
+                          </select>
+                </div>
+    </div>
+    <!-- <div class="row">
+      <label style="margin-left:1vw">Article: </label>
+      <select autocomplete="off" id="article-choice" onchange="update();">
+        <option selected value='metoo'>#MeToo Articles</option>
+      </select>
+      <label style="margin-left:1vw"> Category: </label>
+      <select autocomplete="off" id="category-choice" onchange="categoryupdate();">
+        <option value='Words' selected>Words</option>
+        <option value='bigram'>Bigrams</option>
+        <option value='people'>People</option>
+        <option value='organization'>Organization</option>
+        <option value='theme'>Themes</option>
+      </select>
+    </div> -->
+    <div class="row">
+      <div id="div2"  style='overflow:auto; width:40vw; height: 50vw;'  class="col-md-6">
+      <div id="chart1" ></div>
+      </div>
+    <div id="div1" style='overflow:auto; width:55vw; height: 50vw; margin-top:2%;' class="col-md-6" >
+      <svg class="legendsvg" width="900" height="50"></svg>  
+      <svg class="chart" width="300"></svg>
+    </div>
+  </div>
+</div>
+    
+    <script type="text/javascript">
+      var margin = { top: 70, right: 0, bottom: 200, left: 50 },
+          width = 960 - margin.left - margin.right,
+          height = 430 - margin.top - margin.bottom,
+          gridSize = Math.floor(width / 25),
+          legendElementWidth = gridSize*1.5,
+          buckets = 9,
+          // colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"],
+          // colors = ["#440256","#450457","#450559","#3f4788","#3f4889","#3e4989","#3e4a89","#2f6b8e","#2f6c8e","#2e6d8e","#2e6e8e","#1f9f88","#1fa088","#1fa188","#1fa187"] // alternatively colorbrewer.YlGnBu[9]
+          colors = ["#660022","#781426","	#7A1F3D","	#990033","#C76475","#77B75B","#ABDB92"],
+          colors = ["#D98CA6","#CC6688","	#B24D6E","	#BF406A","	#8F3D58","	#993355","	#732640","#4D192A","	#471F2C"]
+          colors = ["#EFB605", "#E9A501", "#E48405", "#E34914", "#DE0D2B", "#CF003E", "#B90050", "#8e273c", "#8e2848"]
+          days = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+          times = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ];
+
+      var heatmapChart = function(a1,a2,cat) {
+        var svg = d3.select("#chart1").append("svg")
+          .attr("width", width + margin.left + margin.right)
+          .attr("height", height + margin.top + margin.bottom+300)
+          .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+      
+      var div = d3.select("body")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
+      var dayLabels = svg.selectAll(".dayLabel")
+          .data(days)
+          .enter().append("text")
+            .text(function (d) { return d; })
+            .attr("x", 0)
+            .attr("y", function (d, i) { return i * gridSize; })
+            .style("text-anchor", "end")
+            .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
+            .attr("class", function (d, i) { return "dayLabel mono axis axis-workweek"; });
+
+      var timeLabels = svg.selectAll(".timeLabel")
+          .data(times)
+          .enter().append("text")
+            .text(function(d) { return d; })
+            .attr("x", function(d, i) { return i * gridSize; })
+            .attr("y", 0)
+            .style("text-anchor", "middle")
+            .attr("transform", "translate(" + gridSize / 2 + ", -6)")
+            .attr("class", function(d, i) { return "timeLabel mono axis axis-worktime"; });
+
+        var barchart = d3.select(".chart");
+        barchart.selectAll("*").remove();
+        var barlegend = d3.select(".legendsvg");
+        barlegend.selectAll("*").remove();
+
+        var filename='./data/alldata/article1_article2/article1_article2/'+a1+'_'+a2+'_'+cat;
+        console.log(filename);
+        d3.csv(filename+'_heat_map.csv',
+        function(d) {
+          return {
+            day: +d.a1_bin,
+            hour: +d.a2_bin,
+            value: +d.count
+          };
+        },
+        function(error, data) {
+           tip = d3.tip()
+          .attr('class', 'd3-tip')
+          .offset([-10, 0])
+          .html(function(d) {
+              return "<strong>Count:</strong> <span style='color:red'>" + d.value + "</span>";
+          });
+        svg.call(tip);
+          var colorScale = d3.scale.quantile()
+              .domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
+              .range(colors);
+
+          var cards = svg.selectAll(".hour")
+              .data(data, function(d) {return d.day+':'+d.hour;});
+
+          cards.append("title");
+
+          cards.enter().append("rect")
+              .attr("x", function(d) { return (d.hour - 1) * gridSize+35; })
+              .attr("y", function(d) { return (d.day - 1) * gridSize+35; })
+              .attr("rx", 4)
+              .attr("ry", 4)
+              .attr("class", "hour bordered")
+              .attr("width", gridSize)
+              .attr("height", gridSize)
+              .style("fill", colors[0])
+              .on('mouseover', tip.show)
+              .on('mouseout', tip.hide)
+              .on("click",function(d){
+                drawbar(d.day,d.hour,d.value,a1,a2,cat);
+              });
+
+          cards.transition().duration(1000)
+              .style("fill", function(d) { return colorScale(d.value); });
+
+          cards.select("title").text(function(d) { return d.value; });
+          
+          cards.exit().remove();
+
+          var legend = svg.selectAll(".legend")
+              .data([0].concat(colorScale.quantiles()), function(d) { return d; });
+
+          legend.enter().append("g")
+              .attr("class", "legend");
+
+          legend.append("rect")
+            .attr("x", function(d, i) { return legendElementWidth * i; })
+            .attr("y", height+300)
+            .attr("width", legendElementWidth)
+            .attr("height", gridSize / 2)
+            .style("fill", function(d, i) { return colors[i]; });
+
+          legend.append("text")
+            .attr("class", "mono")
+            .text(function(d) { if(Math.round(d)==0){
+              return ">0";
+            }
+            else {
+              return ">= " + Math.round(d); 
+            }})
+            .attr("x", function(d, i) { return legendElementWidth * i +16; })
+            .attr("y", height + gridSize+300);
+
+      legend.append("text")
+      .attr("x",150)
+      .style("font-size",20)
+      .attr("y", height + gridSize+250)
+      .text(function(d,i){
+        if(i==0){
+          return "Legend for Count of words";
+        }
+        });
+			
+			svg.append("text")
+            .attr("text-anchor", "middle") 			// this makes it easy to centre the text as the transform is applied to the anchor
+            .attr("transform","translate(-30,"+((height/2)+80)+")rotate(-90)")  
+			.text(a1.toUpperCase()+" - PERCENTILE WORD GROUPS");
+			
+			svg.append("text")
+            .attr("text-anchor", "middle") 
+			.attr("transform","translate("+((width/4)-0)+",-30)")// this makes it easy to centre the text as the transform is applied to the anchor
+            .text(a2.toUpperCase()+" - PERCENTILE WORD GROUPS");
+
+
+          legend.exit().remove();
+
+        });  
+      };
+      heatmapChart("MeToo","Sexual Harassment","unigram");
+      var option = 0;
+
+      function callcharts() {
+        $('#chart1').html("");
+        var a1 = document.getElementById("article1-choice");
+        var a2 = document.getElementById("article2-choice");
+        var cat = document.getElementById("category-choice");
+        if(a1.options[a1.selectedIndex].value===a2.options[a2.selectedIndex].value) {
+            window.alert("Select Different articles for comparison");
+        }
+        else{
+            if(a1.selectedIndex<a2.selectedIndex){
+                heatmapChart(a1.options[a1.selectedIndex].value,a2.options[a2.selectedIndex].value,cat.options[cat.selectedIndex].value);
+            }
+            else{
+                heatmapChart(a2.options[a2.selectedIndex].value,a1.options[a1.selectedIndex].value,cat.options[cat.selectedIndex].value);
+            }
+            
+        }
+
+      };
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+chr,label,start,end,value
+UNIGRAMS,harassment,0,1,20.0
+UNIGRAMS,assault,1,2,14.0
+UNIGRAMS,weinstein,2,3,13.0
+UNIGRAMS,allegations,3,4,13.0
+UNIGRAMS,abuse,4,5,10.0
+BIGRAMS,harvey weinstein,0,1,9.0
+BIGRAMS,harassment assault,1,2,8.0
+BIGRAMS,tarana burke,2,3,7.0
+BIGRAMS,assault harassment,3,4,6.0
+BIGRAMS,donald trump,4,5,5.0
+TRIGRAMS,mogul harvey weinstein,0,1,4.0
+TRIGRAMS,producer harvey weinstein,1,2,3.0
+TRIGRAMS,disgraced mogul harvey,2,3,3.0
+TRIGRAMS,activist tarana burke,3,4,2.0
+TRIGRAMS,tarana burke founder,4,5,1.0
+PEOPLE,Harvey Weinstein,0,1,24.0
+PEOPLE,Donald Trump,1,2,22.0
+PEOPLE,Trump,2,3,18.0
+PEOPLE,Brett Kavanaugh,3,4,12.0
+PEOPLE,Christine Blasey Ford,4,5,11.0
+ORGANIZATION,New York Times,0,1,23.0
+ORGANIZATION,Senate,1,2,19.0
+ORGANIZATION,Congress,2,3,17.0
+ORGANIZATION,Supreme Court,3,4,16.0
+ORGANIZATION,White House,4,5,15.0
+THEME,crime and criminals,0,1,28.0
+THEME,sex crimes,1,2,27.0
+THEME,politics and government,2,3,26.0
+THEME,women,3,4,25.0
+THEME,united states politics and government,4,5,21.0

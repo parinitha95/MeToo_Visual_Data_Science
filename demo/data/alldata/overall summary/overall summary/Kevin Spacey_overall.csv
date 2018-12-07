@@ -1,0 +1,31 @@
+chr,label,start,end,value
+UNIGRAMS,kevin,0,1,29.0
+UNIGRAMS,spacey,1,2,27.0
+UNIGRAMS,mccarthy,2,3,12.0
+UNIGRAMS,leader,3,4,11.0
+UNIGRAMS,durant,4,5,10.0
+BIGRAMS,kevin spacey,0,1,15.0
+BIGRAMS,kevin mccarthy,1,2,11.0
+BIGRAMS,leader kevin,2,3,9.0
+BIGRAMS,kevin durant,3,4,7.0
+BIGRAMS,kevin brady,4,5,6.0
+TRIGRAMS,leader kevin mccarthy,0,1,5.0
+TRIGRAMS,kevin de león,1,2,4.0
+TRIGRAMS,warriors kevin durant,2,3,3.0
+TRIGRAMS,reuters kevin lamarque,3,4,2.0
+TRIGRAMS,kevin de bruyne,4,5,1.0
+PEOPLE,Donald Trump,0,1,26.0
+PEOPLE,Trump,1,2,18.0
+PEOPLE,Kevin Spacey,2,3,14.0
+PEOPLE,Kevin McCarthy,3,4,13.0
+PEOPLE,Kevin Durant,4,5,8.0
+ORGANIZATION,Senate,0,1,23.0
+ORGANIZATION,House,1,2,22.0
+ORGANIZATION,Congress,2,3,21.0
+ORGANIZATION,White House,3,4,20.0
+ORGANIZATION,GOP,4,5,19.0
+THEME,politics and government,0,1,28.0
+THEME,united states politics and government,1,2,25.0
+THEME,finances,2,3,24.0
+THEME,elections,3,4,17.0
+THEME,basketball,4,5,16.0

@@ -1,0 +1,31 @@
+chr,label,start,end,value
+UNIGRAMS,ansari,0,1,26.0
+UNIGRAMS,aziz,1,2,24.0
+UNIGRAMS,grace,2,3,13.0
+UNIGRAMS,allegations,3,4,10.0
+UNIGRAMS,comedian,4,5,9.0
+BIGRAMS,aziz ansari,0,1,23.0
+BIGRAMS,comedian aziz,1,2,6.0
+BIGRAMS,grace ansari,2,3,5.0
+BIGRAMS,james franco,3,4,3.0
+BIGRAMS,aziz ansari's,4,5,3.0
+TRIGRAMS,comedian aziz ansari,0,1,7.0
+TRIGRAMS,william macy shameless,1,2,4.0
+TRIGRAMS,aziz ansari misconduct,2,3,2.0
+TRIGRAMS,anthony anderson black-ish,3,4,2.0
+TRIGRAMS,aziz ansari responds,4,5,1.0
+PEOPLE,Aziz Ansari,0,1,25.0
+PEOPLE,Harvey Weinstein,1,2,18.0
+PEOPLE,James Franco,2,3,16.0
+PEOPLE,Nicole Kidman,3,4,11.0
+PEOPLE,Allison Janney,4,5,11.0
+ORGANIZATION,Netflix,0,1,17.0
+ORGANIZATION,New York Times,1,2,15.0
+ORGANIZATION,HBO,2,3,14.0
+ORGANIZATION,NBC,3,4,12.0
+ORGANIZATION,Washington Post,4,5,8.0
+THEME,crime and criminals,0,1,22.0
+THEME,motion pictures,1,2,21.0
+THEME,sex crimes,2,3,21.0
+THEME,television,3,4,20.0
+THEME,women,4,5,19.0

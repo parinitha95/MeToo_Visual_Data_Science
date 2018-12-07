@@ -1,0 +1,31 @@
+chr,label,start,end,value
+UNIGRAMS,louis,0,1,24.0
+UNIGRAMS,weinstein,1,2,13.0
+UNIGRAMS,allegations,2,3,12.0
+UNIGRAMS,misconduct,3,4,11.0
+UNIGRAMS,harassment,4,5,10.0
+BIGRAMS,harvey weinstein,0,1,9.0
+BIGRAMS,louis ck,1,2,8.0
+BIGRAMS,comedian louis,2,3,7.0
+BIGRAMS,kevin spacey,3,4,6.0
+BIGRAMS,matt lauer,4,5,5.0
+TRIGRAMS,louis roseanne barr,0,1,4.0
+TRIGRAMS,kevin spacey louis,1,2,3.0
+TRIGRAMS,producer harvey weinstein,2,3,2.0
+TRIGRAMS,matt lauer charlie,3,4,1.0
+TRIGRAMS,louis matt lauer,4,5,1.0
+PEOPLE,Louis C.K.,0,1,29.0
+PEOPLE,Harvey Weinstein,1,2,28.0
+PEOPLE,Kevin Spacey,2,3,22.0
+PEOPLE,Matt Lauer,3,4,21.0
+PEOPLE,Charlie Rose,4,5,20.0
+ORGANIZATION,New York Times,0,1,23.0
+ORGANIZATION,Netflix,1,2,17.0
+ORGANIZATION,NBC,2,3,16.0
+ORGANIZATION,CBS,3,4,15.0
+ORGANIZATION,Washington Post,4,5,14.0
+THEME,sex crimes,0,1,27.0
+THEME,crime and criminals,1,2,26.0
+THEME,women,2,3,25.0
+THEME,motion pictures,3,4,19.0
+THEME,television,4,5,18.0

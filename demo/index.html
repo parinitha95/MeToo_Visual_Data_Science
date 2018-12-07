@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Visual Analysis of #MeToo News Articles</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="//code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src='../dist/circos.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.js'></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-queue/3.0.3/d3-queue.js'></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="bar.js"></script>
+
+  </head>
+  <body>
+      <div class="topnav">
+          <a class="active" href="index.html">Home</a>
+          <a href="comparison.html">Compare Articles</a>
+        </div> 
+        <div class="row"><h2>VISUAL ANALYSIS OF #METOO MOVEMENT NEWS ARTICLES</h2></div>
+    <div class="row">
+        <div id="histogram">
+          <div class="col-md-6">
+              <h4>Choose Article Type: </h4><select autocomplete="off" id="article-choice" onchange="callcharts();">
+                  <option selected value='MeToo'>#MeToo</option>
+                  <option value='Sexual Harassment'>Sexual Harassment</option>
+                  <option value='Al Franken'>Al Franken</option>
+                  <option value='Aziz Ansari'>Aziz Ansari</option>
+                  <option value='Bill Cosby'>Bill Cosby</option>
+                  <option value='Brett Kavanaugh'>Brett Kavanaugh</option>
+                  <option value='Christine Blasey Ford'>Christine Blasey Ford</option>
+                  <option value='Kevin Spacey'>Kevin Spacey</option>
+                  <option value='Louis C.K'>Louis C.K</option>
+                  <option value='Roger Ailes'>Roger Ailes</option>
+                  <option value='Roy Moore'>Roy Moore</option>
+                  <option value='MeToo and Al Franken'>MeToo and Al Franken</option>
+                  <option value='MeToo and Aziz Ansari'>MeToo and Aziz Ansari</option>
+                  <option value='MeToo and Bill Cosby'>MeToo and Bill Cosby</option>
+                  <option value='MeToo and Brett Kavanaugh'>MeToo and Brett Kavanaugh</option>
+                  <option value='MeToo and Christine Blasey Ford'>MeToo and Christine Blasey Ford</option>
+                  <option value='MeToo and Kevin Spacey'>MeToo and Kevin Spacey</option>
+                  <option value='MeToo and Louis C.K'>MeToo and Louis C.K</option>
+                  <option value='MeToo and Roger Ailes'>MeToo and Roger Ailes</option>
+                  <option value='MeToo and Roy Moore'>MeToo and Roy Moore</option>                  
+                </select>
+               
+              <div class="mdl-card__supporting-text">
+                  <h3>TOP FIVE WORDS ACROSS CATEGORIES</h3>
+                <div id='histogramChart'></div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="mdl-card__supporting-text">
+                <div class="brushable_title" style="margin-top:10%;"><h3>PERCENTAGE DISTRIBUTION - UNIGRAMS</h3></div>
+                <div id="chart"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <section>
+      <a href="#title" class="scroll-down" address="true"></a>
+      </section>
+      <section class="ok">
+          <div class="head" id = "title">
+        <h2>COMPARISON OF LEFT AND RIGHT SOURCING ARTICLES</h2>
+            </div>
+      </section>
+      
+        <div class="row">
+            <div id="div2"  style='overflow:auto; width:40vw; height: 50vw;'  class="col-md-6">
+            <div id="heatchart" ></div>
+            </div>
+          <div id="div1" style='overflow:auto; width:50vw; height: 50vw;' class="col-md-6 left" >
+              <svg class="barchart" width="300"></svg>
+          </div>
+        </div>
+
+    <script src='./histogram.js'></script>
+    <script>
+      summary({
+        overall: "MeToo_overall.csv",
+        unigram: "MeToo_unigram.csv",
+        bigram: "MeToo_bigram.csv",
+        trigram: "MeToo_trigram.csv",
+        people: "MeToo_people.csv",
+        organization: "MeToo_organization.csv",
+        theme: "MeToo_theme.csv",
+        word_heat_map: "MeToo_word_heat_map.csv",
+        word_dist: "MeToo_word_dist.csv",
+        bigram_heat_map: "MeToo_bigram_heat_map.csv",
+        bigram_dist: "MeToo_bigram_dist.csv",
+        trigram_heat_map: "MeToo_trigram_heat_map.csv",
+        trigram_dist: "MeToo_trigram_dist.csv",
+        people_heat_map: "MeToo_people_heat_map.csv",
+        people_dist: "MeToo_people_dist.csv",
+        organization_heat_map: "MeToo_organization_heat_map.csv",
+        organization_dist: "MeToo_organization_dist.csv",
+        theme_heat_map: "MeToo_theme_heat_map.csv",
+        theme_dist: "MeToo_theme_dist.csv"
+      })
+
+      heatmapChart("MeToo_word_heat_map.csv","MeToo_word_dist.csv");
+
+      function callcharts(){
+        var data = {};
+        var e = document.getElementById("article-choice");
+        d3.csv("./data/alldata/dictionary_overall_summary.csv",function(d){
+          console.log(e.options[e.selectedIndex].value)
+          if(e.options[e.selectedIndex].value === d.article_name){
+            data.overall = d.overall;
+            data.unigram=  d.unigram;
+            data.bigram = d.bigram;
+            data.trigram = d.trigram;
+            data.people = d.people;
+            data.organization= d.organization;
+            data.theme= d.theme;
+            if(d.word_heat_map!='nil'){
+              data.word_heat_map = d.word_heat_map;
+              data.bigram_heat_map = d.bigram_heat_map;
+              data.trigram_heat_map = d.trigram_heat_map;
+              data.people_heat_map=d.people_heat_map;
+              data.organization_heat_map = d.organization_heat_map;
+              data.theme_heat_map = d.theme_heat_map;
+              data.word_dist = d.word_dist;
+              data.bigram_dist = d.bigram_dist;
+              data.trigram_dist = d.trigram_dist;
+              data.people_dist = d.people_dist;
+              data.organization_dist = d.organization_dist;
+              data.theme_dist = d.theme_dist;
+            }
+          }
+        },
+        function(error,d){
+          console.log(data.overall)
+          $("#histogramChart").html("");
+          $('#heatchart').html("");
+          $("#chart").html("");
+          var barchart = d3.select(".barchart");
+          barchart.selectAll("*").remove();
+          summary(data);
+          if( typeof data.word_heat_map != 'undefined'){
+              heatmapChart(data.word_heat_map,data.word_dist);
+              $(".head h2").html("COMPARISON OF LEFT AND RIGHT SOURCING ARTICLES");
+          } else {
+            $(".head h2").html("COMPARISON OF LEFT AND RIGHT SOURCING ARTICLES - DATA NOT AVAILABLE");
+          }
+          $(".brushable_title h3").html("PERCENTAGE DISTRIBUTION - UNIGRAMS");
+        })
+      }
+    </script>
+  </body>
+</html>

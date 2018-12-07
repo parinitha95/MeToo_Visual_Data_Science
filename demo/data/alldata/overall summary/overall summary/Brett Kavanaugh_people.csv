@@ -1,0 +1,524 @@
+label,perc
+Brett Kavanaugh,0.982474812
+Christine Blasey Ford,0.416489286
+Donald Trump,0.37164751
+Trump,0.215481765
+Susan Collins,0.12735916
+Chuck Grassley,0.124521073
+Mitch McConnell,0.120760607
+Dianne Feinstein,0.118419185
+Jeff Flake,0.109408259
+Anthony Kennedy,0.108485881
+Deborah Ramirez,0.088477366
+Lisa Murkowski,0.086277849
+George W. Bush,0.084787853
+Roe,0.084433092
+Wade,0.074570739
+Neil Gorsuch,0.074428835
+Clarence Thomas,0.072016461
+Lindsey Graham,0.068823613
+Hillary Clinton,0.062721726
+Barack Obama,0.06222506
+Chuck Schumer,0.060522208
+Bill Clinton,0.05796793
+Julie Swetnick,0.056619838
+Joe Manchin,0.056477934
+Anita Hill,0.055839364
+Mark Judge,0.055484603
+Robert Mueller,0.049595573
+Michael Avenatti,0.046047964
+Heidi Heitkamp,0.041790833
+Cory Booker,0.039378459
+Orrin Hatch,0.039023698
+Brett M. Kavanaugh,0.037888463
+John Roberts,0.036043707
+Obama,0.03583085
+Kamala Harris,0.035263233
+Antonin Scalia,0.034340854
+Rachel Mitchell,0.032921811
+Joe Donnelly,0.032779906
+John Cornyn,0.031857528
+Ted Cruz,0.031502767
+John McCain,0.031360863
+Richard Blumenthal,0.031148006
+Mike Pence,0.029374202
+Merrick Garland,0.028735632
+Mazie Hirono,0.028593728
+Amy Coney Barrett,0.028451823
+Debra Katz,0.027387541
+Dick Durbin,0.025258975
+Ruth Bader Ginsburg,0.023839932
+Rod Rosenstein,0.023698028
+Amy Klobuchar,0.023201362
+Christine Ford,0.022704697
+Elena Kagan,0.021711367
+Don McGahn,0.02149851
+Jeff Sessions,0.021356606
+Patrick Leahy,0.020930893
+Bob Corker,0.020788988
+Bush,0.020718036
+Kellyanne Conway,0.020647084
+Raymond Kethledge,0.020008514
+Nancy Pelosi,0.019582801
+Ken Starr,0.019440897
+Chris Coons,0.018518519
+Fox,0.018376614
+Clintons,0.018376614
+Vladimir Putin,0.017879949
+Joe Biden,0.017738045
+Sheldon Whitehouse,0.017667092
+Michael Cohen,0.017454236
+Elizabeth Warren,0.017312331
+Thomas Hardiman,0.017241379
+Ronald Reagan,0.016886618
+Claire McCaskill,0.016673762
+Bernie Sanders,0.016460905
+Kenneth Starr,0.016460905
+Raj Shah,0.016319001
+Paul Manafort,0.01532567
+Samuel Alito,0.01532567
+Richard Nixon,0.015183766
+Mike Lee,0.015183766
+Sarah Huckabee Sanders,0.015041862
+Sonia Sotomayor,0.014616149
+Monica Lewinsky,0.013906627
+Sarah Sanders,0.013835675
+Harvey Weinstein,0.013764723
+Clinton,0.01333901
+Paul Ryan,0.013268057
+Grassley,0.013055201
+Robert Bork,0.012913296
+Anna Eshoo,0.012629488
+James Comey,0.012558536
+Ronan Farrow,0.012487583
+Mike Pompeo,0.012416631
+Anthony M. Kennedy,0.012274727
+Kirsten Gillibrand,0.012132822
+Leland Keyser,0.011778062
+Feinstein,0.011636157
+Ford,0.011565205
+Ben Sasse,0.011210444
+Kevin Cramer,0.011139492
+John Kennedy,0.01106854
+Rand Paul,0.010926635
+Bill Cosby,0.010713779
+Dean Heller,0.010500922
+Jane Mayer,0.010500922
+George H.W. Bush,0.01042997
+Leonard Leo,0.010217114
+Ashley,0.009791401
+Kennedy,0.009791401
+Donald Trump Jr.,0.009720448
+Sean Hannity,0.009720448
+Doug Jones,0.009720448
+Lisa Banks,0.009720448
+Roy Moore,0.009649496
+Martha MacCallum,0.009649496
+Bob Woodward,0.009507592
+Phil Bredesen,0.009365688
+Melania Trump,0.009294735
+Kim Jong Un,0.008939974
+Bill Nelson,0.00879807
+Jon Tester,0.008656166
+Marsha Blackburn,0.008656166
+Ed Whelan,0.008585214
+Chris Wallace,0.008372357
+Daniels,0.008372357
+Al Franken,0.008230453
+Rachel Maddow,0.008230453
+Jake Tapper,0.008230453
+Charles E. Grassley,0.0081595
+Michael Bromwich,0.0081595
+Lawrence Hurley,0.008088548
+Rudy Giuliani,0.007946644
+Rick Scott,0.007946644
+Josh Hawley,0.007946644
+Mueller,0.007875692
+Stephen Breyer,0.00780474
+Keith Ellison,0.00780474
+Charles Grassley,0.00780474
+Reagan,0.007733787
+Seung Min Kim,0.007733787
+John Paul Stevens,0.007662835
+Alex Kozinski,0.007520931
+Jon Kyl,0.007449979
+William Rehnquist,0.007449979
+Beto O’Rourke,0.007379027
+Alyssa Milano,0.007308074
+Steve Bannon,0.007237122
+Martha McSally,0.007237122
+Carrie Severino,0.007237122
+Stormy Daniels,0.007237122
+Nikki Haley,0.00716617
+John Kelly,0.007095218
+George Soros,0.007095218
+Cory Gardner,0.007024266
+Will Dunham,0.006953313
+Brian Fallon,0.006953313
+Jared Kushner,0.006811409
+Chad Pergram,0.006811409
+Scott Pruitt,0.006740457
+Richard Cowan,0.006740457
+John Thune,0.006740457
+Mike Braun,0.006740457
+Kerri Kupec,0.006669505
+Neil M. Gorsuch,0.006598553
+Patrick Morrisey,0.006598553
+Kavanagh,0.006598553
+Marco Rubio,0.006456648
+Stephen Colbert,0.006385696
+Tucker Carlson,0.006385696
+Kyrsten Sinema,0.006101887
+Patty Murray,0.006030935
+Steve Daines,0.006030935
+Josh Dawsey,0.005959983
+Taylor Foy,0.005959983
+Casey,0.005889031
+Jim Jordan,0.005818079
+Andrew Gillum,0.005747126
+Ivanka Trump,0.005676174
+HuffPost,0.005676174
+Collins,0.005676174
+Doug Ducey,0.00553427
+Ana Maria Archila,0.00553427
+John Wagner,0.005463318
+Schumer,0.005463318
+Thom Tillis,0.005392366
+Maxine Waters,0.005392366
+Ron DeSantis,0.005392366
+Nixon,0.005321413
+Breitbart,0.005321413
+DONALD TRUMP,0.005321413
+RAINN,0.005321413
+Kavanuagh,0.005321413
+Tammy Baldwin,0.005250461
+Andrew McCabe,0.005250461
+Matt Damon,0.005250461
+Rob Portman,0.005250461
+Jacky Rosen,0.005250461
+Ashley Estes Kavanaugh,0.005250461
+David Souter,0.005179509
+Kirstjen Nielsen,0.005179509
+Gorsuch,0.005108557
+Kevin McCarthy,0.005108557
+Jeff Merkley,0.005108557
+Doina Chiacu,0.005108557
+James Roche,0.005108557
+Diane Feinstein,0.005037605
+Andrew Cuomo,0.004966652
+Kanye West,0.004966652
+Amanda Becker,0.004966652
+Debbie Ramirez,0.004966652
+Michelle Obama,0.0048957
+Peter Cooney,0.0048957
+McConnell,0.0048957
+Christopher Wray,0.0048957
+John Clune,0.0048957
+George Washington,0.004824748
+Chris Cuomo,0.004824748
+Bill Burck,0.004753796
+Alex Azar,0.004753796
+Robert S. Mueller III,0.004682844
+Laura Ingraham,0.004682844
+Russell Ford,0.004682844
+Amy Schumer,0.004611892
+Roberts,0.004611892
+Jerry Brown,0.004611892
+Emma Brown,0.004611892
+John Bolton,0.004540939
+Paula ,
+ Jones,0.004540939
+John Dean,0.004540939
+Alan Dershowitz,0.004469987
+Robert Costa,0.004469987
+Joe Manchin III,0.004469987
+Murkowski,0.004469987
+Andrew Chung,0.004469987
+Fred Guttenberg,0.004469987
+Harriet Miers,0.004399035
+Joe Crowley,0.004399035
+Jane Doe,0.004399035
+Mike Emanuel,0.004399035
+P.J. Smyth,0.004399035
+Alex Jones,0.004328083
+Andrew Napolitano,0.004328083
+Eric Holder,0.004257131
+John Kerry,0.004257131
+Rob Porter,0.004257131
+Newt Gingrich,0.004257131
+Debbie,0.004257131
+Tom Carper,0.004257131
+Dana Bash,0.004257131
+Daniel Lippman,0.004257131
+Shannon Bream,0.004257131
+Jim Mattis,0.004186179
+Lindsey O. Graham,0.004186179
+Colin Kaepernick,0.004186179
+Anderson Cooper,0.004186179
+#NAME?,0.004186179
+Charles E. Schumer,0.004115226
+Kim Jong-un,0.004115226
+Maria,0.004115226
+Michael Flynn,0.004115226
+Mitt Romney,0.004115226
+Tim Kaine,0.004115226
+Taylor Swift,0.004115226
+Chuck Todd,0.004115226
+Sherrod Brown,0.004115226
+Margaret,0.004044274
+Bob Casey,0.004044274
+Peter Strzok,0.004044274
+Mike DeBonis,0.004044274
+Josh Gerstein,0.004044274
+Abraham Lincoln,0.003973322
+Mark Zuckerberg,0.003973322
+Donald McGahn,0.003973322
+Kagan,0.003973322
+Ted Kennedy,0.003973322
+Aaron Blake,0.003973322
+Les Moonves,0.003973322
+Chad Ludington,0.003973322
+Donald J. Trump,0.00390237
+Jimmy Kimmel,0.00390237
+Steve Scalise,0.00390237
+Rachael,0.00390237
+v. Nixon,0.00390237
+Gore,0.003831418
+Bill Shine,0.003831418
+Bob Menendez,0.003831418
+Tom Cotton,0.003831418
+Devin Nunes,0.003831418
+Thomas,0.003831418
+Teresa Vilmain,0.003831418
+Beto O'Rourke,0.003831418
+Ashley Kavanaugh,0.003831418
+Michael,0.003760465
+Tesla,0.003760465
+Susan Rice,0.003760465
+Jim Acosta,0.003760465
+Mike Davis,0.003760465
+Felicia Sonmez,0.003760465
+Pope Francis,0.003689513
+Harry Reid,0.003689513
+Sarah Palin,0.003689513
+Sandra,0.003689513
+Jeffrey Toobin,0.003689513
+Ramirez,0.003689513
+Alex Pappas,0.003689513
+John Kasich,0.003618561
+Susan Heavey,0.003618561
+Chris Murphy,0.003618561
+David French,0.003618561
+Leland Ingham Keyser,0.003618561
+Larry Hogan,0.003547609
+Sean Sullivan,0.003547609
+Liza,0.003547609
+J. Scott Applewhite/AP,0.003547609
+Cindy Hyde-Smith,0.003547609
+Putin,0.003476657
+Hugh Hewitt,0.003476657
+Joe Arpaio,0.003476657
+Marc Kasowitz,0.003476657
+Mark Meadows,0.003476657
+Andrea Constand,0.003476657
+Joan Larsen,0.003476657
+Susan B. Anthony,0.003476657
+Kenneth W. Starr,0.003476657
+Seth Meyers,0.003405705
+Sotomayor,0.003405705
+Britt Grant,0.003405705
+Maggie Haberman,0.003334752
+Obamacare,0.003334752
+Scalia,0.003334752
+FOX,0.003334752
+Flake,0.003334752
+— Donald J. Trump,0.003334752
+Barbara Van Gelder,0.003334752
+Theresa May,0.0032638
+Thurgood Marshall,0.0032638
+Maria Gallagher,0.0032638
+Philip Rucker,0.003192848
+Elon Musk,0.003192848
+Starr,0.003192848
+Ed Markey,0.003192848
+Bret Baier,0.003192848
+Karl Rove,0.003192848
+Chris Collins,0.003192848
+Kevin Drawbaugh,0.003192848
+Politico,0.003121896
+Betsy DeVos,0.003121896
+Brown,0.003121896
+Jonathan Turley,0.003121896
+Jennifer Rubin,0.003121896
+Karen Monahan,0.003121896
+Richard Shelby,0.003050944
+Jeb Bush,0.003050944
+Moon Jae-in,0.003050944
+Steve Holland,0.003050944
+Burgess Everett,0.003050944
+Roger Ailes,0.003050944
+Elana Schor,0.003050944
+Juanita Broaddrick,0.003050944
+Matt Rosendale,0.003050944
+George Stephanopoulos,0.003050944
+Garza v. Hargan,0.003050944
+Ron Wyden,0.002979991
+Xi Jinping,0.002979991
+Sandra Day O'Connor,0.002979991
+Stephen Miller,0.002979991
+Cynthia Nixon,0.002979991
+James Mattis,0.002979991
+Eliana Johnson,0.002979991
+Trey Gowdy,0.002979991
+Evan Vucci/AP,0.002979991
+Cindy McCain,0.002979991
+Joanie Greve,0.002979991
+Ayanna Pressley,0.002979991
+Chris Dudley,0.002979991
+Elizabeth Rasor,0.002979991
+Justin Trudeau,0.002909039
+Mick Mulvaney,0.002909039
+Ashley Parker,0.002909039
+Breanne Deppisch,0.002909039
+Devlin Barrett,0.002909039
+Trevor Noah,0.002909039
+Scott Walker,0.002909039
+Mark,0.002909039
+Robert Barnes,0.002909039
+Kaitlan Collins,0.002909039
+Kate McKinnon,0.002909039
+Duncan,
+ Hunter,0.002909039
+Ilyse Hogue,0.002909039
+Jamal Khashoggi,0.002909039
+Lisa Lambert,0.002909039
+Andrew Wheeler,0.002909039
+Kavanugh,0.002909039
+Patrick J. Smyth,0.002909039
+John Brennan,0.002838087
+Jesus,0.002838087
+Emily Ratajkowski,0.002838087
+Kris Kobach,0.002838087
+Bob Mueller,0.002838087
+BuzzFeed,0.002838087
+Tim Scott,0.002838087
+Roy Blunt,0.002838087
+Burgess,0.002838087
+Manchin,0.002838087
+Amy Barrett,0.002838087
+BRETT KAVANAUGH,0.002838087
+Hillary,0.002767135
+Carter,0.002767135
+Osama bin Laden,0.002767135
+Shelley Moore Capito,0.002767135
+Linda Sarsour,0.002767135
+Al Gore,0.002767135
+Jack Dorsey,0.002767135
+Elise Viebeck,0.002767135
+Andrew Restuccia,0.002767135
+Rebecca Traister,0.002767135
+Tom Steyer,0.002767135
+David Morgan,0.002767135
+Nancy Cordes,0.002767135
+– Charles Krauthammer,0.002767135
+Blasey Ford,0.002767135
+Ryan,0.002696183
+Wilbur Ross,0.002696183
+Adam Schiff,0.002696183
+Hill,0.002696183
+Roberta Rampton,0.002696183
+Vince Foster,0.002696183
+Alex Brandon/AP,0.002696183
+Adam Shaw,0.002696183
+Erica Werner,0.002625231
+Matt Zapotosky,0.002625231
+Emmanuel Macron,0.002625231
+Stacey Abrams,0.002625231
+Beth Wilkinson,0.002625231
+Alex Wong/Getty,0.002625231
+Holton,0.002625231
+Avenatti,0.002625231
+George W Bush,0.002554278
+Ryan Zinke,0.002554278
+Joy Reid,0.002554278
+Barbara Comstock,0.002554278
+Bill Cassidy,0.002554278
+Gerald Ford,0.002554278
+Erick Erickson,0.002554278
+John G. Roberts Jr.,0.002554278
+Heidi,0.002554278
+William Pryor,0.002554278
+Chris Stirewalt,0.002554278
+Jimmy Carter,0.002483326
+Angela Merkel,0.002483326
+Don Lemon,0.002483326
+David Perdue,0.002483326
+Ron Johnson,0.002483326
+Gina Haspel,0.002483326
+Alito,0.002483326
+Joni Ernst,0.002483326
+Howard Kurtz,0.002483326
+Dana Perino,0.002483326
+Darren Samuelsohn,0.002483326
+Amy Chua,0.002483326
+George Hartmann,0.002483326
+Patrick Smyth,0.002483326
+Roger Stone,0.002412374
+Jonathan Martin,0.002412374
+Steven Mnuchin,0.002412374
+Bob Goodlatte,0.002412374
+Manu Raju,0.002412374
+Andrea Mitchell,0.002412374
+Graham,0.002412374
+David Alexander,0.002412374
+Richard J. Durbin,0.002412374
+Kelli Ward,0.002412374
+Ginsburg,0.002412374
+Louis C.K.,0.002412374
+Elana,0.002412374
+Jon Haber,0.002412374
+Mark Warner,0.002341422
+Tom Hamburger,0.002341422
+Chris Christie,0.002341422
+Ann Coulter,0.002341422
+Scott,0.002341422
+Jeff Mason,0.002341422
+Marc Caputo,0.002341422
+MAGA,0.002341422
+Orrin G. Hatch,0.002341422
+Jeanine Pirro,0.002341422
+Brian Kemp,0.002341422
+Lisa Blatt,0.002341422
+,0.002341422
+Joe Scarborough,0.00227047
+Anne Gearan,0.00227047
+Charlie Baker,0.00227047
+Alex Isenstadt,0.00227047
+Dana Rohrabacher,0.00227047
+Chris Matthews,0.00227047
+Steny Hoyer,0.00227047
+Harry Blackmun,0.00227047
+Serena Williams,0.00227047
+Maggie Hassan,0.00227047
+Debbie Stabenow,0.00227047
+Elena Schneider,0.00227047
+Patrick Wyrick,0.00227047
+Tina Smith,0.00227047
+James Arkin,0.00227047
+Peter Doocy,0.00227047
+Troy Balderson,0.00227047
+Christine Blasey,0.00227047
+Sean Spicer,0.002199518
+Dick Cheney,0.002199518
+Paul,0.002199518
+Mike Coffman,0.002199518
+Lawrence,0.002199518
+Heller,0.002199518
+Brock Turner,0.002199518
+Alberto Gonzales,0.002199518
+Edelman,0.002199518
+Leah Vukmir,0.002199518
+Karen McDougal,0.002199518
+Kamala D. Harris,0.002199518
+Zach Gibson/Getty,0.002199518
+Kevin Newsom,0.002199518

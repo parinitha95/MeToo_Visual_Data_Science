@@ -1,0 +1,31 @@
+chr,label,start,end,value
+UNIGRAMS,ansari,0,1,28.0
+UNIGRAMS,aziz,1,2,23.0
+UNIGRAMS,grace,2,3,14.0
+UNIGRAMS,allegations,3,4,10.0
+UNIGRAMS,assault,4,5,9.0
+BIGRAMS,aziz ansari,0,1,22.0
+BIGRAMS,comedian aziz,1,2,8.0
+BIGRAMS,grace ansari,2,3,6.0
+BIGRAMS,harvey weinstein,3,4,5.0
+BIGRAMS,samantha bee,4,5,4.0
+TRIGRAMS,comedian aziz ansari,0,1,7.0
+TRIGRAMS,aziz ansari misconduct,1,2,3.0
+TRIGRAMS,ansari indications consensual,2,3,2.0
+TRIGRAMS,woman's comedian aziz,3,4,1.0
+TRIGRAMS,website babe.net ansari,4,5,1.0
+PEOPLE,Aziz Ansari,0,1,29.0
+PEOPLE,Harvey Weinstein,1,2,25.0
+PEOPLE,Trump,2,3,18.0
+PEOPLE,James Franco,3,4,16.0
+PEOPLE,Kevin Spacey,4,5,15.0
+ORGANIZATION,New York Times,0,1,21.0
+ORGANIZATION,Netflix,1,2,17.0
+ORGANIZATION,Washington Post,2,3,13.0
+ORGANIZATION,NBC,3,4,12.0
+ORGANIZATION,HBO,4,5,11.0
+THEME,sex crimes,0,1,27.0
+THEME,crime and criminals,1,2,26.0
+THEME,women,2,3,24.0
+THEME,motion pictures,3,4,20.0
+THEME,sex,4,5,19.0

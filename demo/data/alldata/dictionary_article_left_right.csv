@@ -1,0 +1,21 @@
+article_name,word_heat_map,word_dist,bigram_heat_map,bigram_dist,trigram_heat_map,trigram_dist,people_heat_map,people_dist,organization_heat_map,organization_dist,theme_heat_map,theme_dist
+#MeToo,#MeToo_word_heat_map.csv,#MeToo_word_dist.csv,#MeToo_bigram_heat_map.csv,#MeToo_bigram_dist.csv,#MeToo_trigram_heat_map.csv,#MeToo_trigram_dist.csv,#MeToo_people_heat_map.csv,#MeToo_people_dist.csv,#MeToo_organization_heat_map.csv,#MeToo_organization_dist.csv,#MeToo_theme_heat_map.csv,#MeToo_theme_dist.csv
+Sexual Harassment,Sexual Harassment_word_heat_map.csv,Sexual Harassment_word_dist.csv,Sexual Harassment_bigram_heat_map.csv,Sexual Harassment_bigram_dist.csv,Sexual Harassment_trigram_heat_map.csv,Sexual Harassment_trigram_dist.csv,Sexual Harassment_people_heat_map.csv,Sexual Harassment_people_dist.csv,Sexual Harassment_organization_heat_map.csv,Sexual Harassment_organization_dist.csv,Sexual Harassment_theme_heat_map.csv,Sexual Harassment_theme_dist.csv
+Al Franken,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+Aziz Ansari,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+Bill Cosby,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+Brett Kavanaugh,Brett Kavanaugh_word_heat_map.csv,Brett Kavanaugh_word_dist.csv,Brett Kavanaugh_bigram_heat_map.csv,Brett Kavanaugh_bigram_dist.csv,Brett Kavanaugh_trigram_heat_map.csv,Brett Kavanaugh_trigram_dist.csv,Brett Kavanaugh_people_heat_map.csv,Brett Kavanaugh_people_dist.csv,Brett Kavanaugh_organization_heat_map.csv,Brett Kavanaugh_organization_dist.csv,Brett Kavanaugh_theme_heat_map.csv,Brett Kavanaugh_theme_dist.csv
+Christine Blasey Ford,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+Kevin Spacey,Kevin Spacey_word_heat_map.csv,Kevin Spacey_word_dist.csv,Kevin Spacey_bigram_heat_map.csv,Kevin Spacey_bigram_dist.csv,Kevin Spacey_trigram_heat_map.csv,Kevin Spacey_trigram_dist.csv,Kevin Spacey_people_heat_map.csv,Kevin Spacey_people_dist.csv,Kevin Spacey_organization_heat_map.csv,Kevin Spacey_organization_dist.csv,Kevin Spacey_theme_heat_map.csv,Kevin Spacey_theme_dist.csv
+Louis C.K,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+Roger Ailes,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+Roy Moore,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+MeToo and Al Franken,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+MeToo and Aziz Ansari,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+MeToo and Bill Cosby,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+MeToo and Brett Kavanaugh,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+MeToo and Christine Blasey Ford,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+MeToo and Kevin Spacey,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+MeToo and Louis C.K,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+MeToo and Roger Ailes,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil
+MeToo and Roy Moore,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil

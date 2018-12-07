@@ -1,0 +1,31 @@
+chr,label,start,end,value
+UNIGRAMS,moore,0,1,24.0
+UNIGRAMS,roy,1,2,12.0
+UNIGRAMS,alabama,2,3,8.0
+UNIGRAMS,senate,3,4,7.0
+UNIGRAMS,trump,4,5,6.0
+BIGRAMS,roy moore,0,1,11.0
+BIGRAMS,senate roy,1,2,5.0
+BIGRAMS,alabama senate,2,3,4.0
+BIGRAMS,doug jones,3,4,3.0
+BIGRAMS,moore alabama,4,5,2.0
+TRIGRAMS,senate roy moore,0,1,5.0
+TRIGRAMS,alabama senate roy,1,2,2.0
+TRIGRAMS,roy moore alabama,2,3,1.0
+TRIGRAMS,republican roy moore,3,4,1.0
+TRIGRAMS,democrat doug jones,4,5,1.0
+PEOPLE,Roy Moore,0,1,26.0
+PEOPLE,Donald Trump,1,2,18.0
+PEOPLE,Al Franken,2,3,17.0
+PEOPLE,Harvey Weinstein,3,4,15.0
+PEOPLE,Trump,4,5,10.0
+ORGANIZATION,Senate,0,1,23.0
+ORGANIZATION,Congress,1,2,16.0
+ORGANIZATION,White House,2,3,14.0
+ORGANIZATION,GOP,3,4,13.0
+ORGANIZATION,Washington Post,4,5,9.0
+THEME,politics and government,0,1,25.0
+THEME,sex crimes,1,2,22.0
+THEME,crime and criminals,2,3,21.0
+THEME,women,3,4,20.0
+THEME,united states politics and government,4,5,19.0

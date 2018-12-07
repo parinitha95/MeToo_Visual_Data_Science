@@ -1,0 +1,31 @@
+chr,label,start,end,value
+UNIGRAMS,ford,0,1,29.0
+UNIGRAMS,kavanaugh,1,2,20.0
+UNIGRAMS,blasey,2,3,17.0
+UNIGRAMS,christine,3,4,14.0
+UNIGRAMS,allegations,4,5,11.0
+BIGRAMS,christine blasey,0,1,15.0
+BIGRAMS,blasey ford,1,2,13.0
+BIGRAMS,brett kavanaugh,2,3,7.0
+BIGRAMS,senate judiciary,3,4,6.0
+BIGRAMS,ford kavanaugh,4,5,5.0
+TRIGRAMS,christine blasey ford,0,1,12.0
+TRIGRAMS,supreme nominee brett,1,2,4.0
+TRIGRAMS,nominee brett kavanaugh,2,3,3.0
+TRIGRAMS,accuser christine blasey,3,4,2.0
+TRIGRAMS,kavanaugh sexually assaulted,4,5,1.0
+PEOPLE,Christine Blasey Ford,0,1,30.0
+PEOPLE,Brett Kavanaugh,1,2,28.0
+PEOPLE,Donald Trump,2,3,16.0
+PEOPLE,Trump,3,4,10.0
+PEOPLE,Deborah Ramirez,4,5,9.0
+ORGANIZATION,Supreme Court,0,1,27.0
+ORGANIZATION,Ford,1,2,23.0
+ORGANIZATION,Senate Judiciary Committee,2,3,22.0
+ORGANIZATION,Senate,3,4,21.0
+ORGANIZATION,FBI,4,5,19.0
+THEME,crime and criminals,0,1,26.0
+THEME,politics and government,1,2,25.0
+THEME,sex crimes,2,3,24.0
+THEME,united states politics and government,3,4,18.0
+THEME,ethics,4,5,8.0

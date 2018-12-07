@@ -1,0 +1,31 @@
+chr,label,start,end,value
+UNIGRAMS,franken,0,1,22.0
+UNIGRAMS,allegations,1,2,18.0
+UNIGRAMS,democrats,2,3,11.0
+UNIGRAMS,trump,3,4,10.0
+UNIGRAMS,senate,4,5,9.0
+BIGRAMS,roy moore,0,1,8.0
+BIGRAMS,franken d-minn,1,2,8.0
+BIGRAMS,franken resign,2,3,7.0
+BIGRAMS,allegations misconduct,3,4,6.0
+BIGRAMS,harassment allegations,4,5,5.0
+TRIGRAMS,senate roy moore,0,1,4.0
+TRIGRAMS,roy moore alabama,1,2,3.0
+TRIGRAMS,republican senate roy,2,3,2.0
+TRIGRAMS,leader mitch mcconnell,3,4,2.0
+TRIGRAMS,senate leader mitch,4,5,1.0
+PEOPLE,Al Franken,0,1,28.0
+PEOPLE,Roy Moore,1,2,20.0
+PEOPLE,Donald Trump,2,3,17.0
+PEOPLE,Trump,3,4,14.0
+PEOPLE,Leeann Tweeden,4,5,12.0
+ORGANIZATION,Senate,0,1,26.0
+ORGANIZATION,Congress,1,2,21.0
+ORGANIZATION,House,2,3,16.0
+ORGANIZATION,White House,3,4,15.0
+ORGANIZATION,GOP,4,5,13.0
+THEME,politics and government,0,1,27.0
+THEME,united states politics and government,1,2,25.0
+THEME,crime and criminals,2,3,24.0
+THEME,sex crimes,3,4,23.0
+THEME,ethics,4,5,19.0

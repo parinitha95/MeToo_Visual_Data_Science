@@ -1,0 +1,31 @@
+chr,label,start,end,value
+UNIGRAMS,kavanaugh,0,1,27.0
+UNIGRAMS,allegations,1,2,12.0
+UNIGRAMS,ford,2,3,11.0
+UNIGRAMS,brett,3,4,10.0
+UNIGRAMS,senate,4,5,9.0
+BIGRAMS,brett kavanaugh,0,1,8.0
+BIGRAMS,judge kavanaugh,1,2,6.0
+BIGRAMS,christine blasey,2,3,5.0
+BIGRAMS,supreme nominee,3,4,4.0
+BIGRAMS,nominee brett,4,5,3.0
+TRIGRAMS,christine blasey ford,0,1,7.0
+TRIGRAMS,supreme nominee brett,1,2,3.0
+TRIGRAMS,nominee brett kavanaugh,2,3,3.0
+TRIGRAMS,judge brett kavanaugh,3,4,2.0
+TRIGRAMS,brett kavanaugh supreme,4,5,1.0
+PEOPLE,Brett Kavanaugh,0,1,28.0
+PEOPLE,Christine Blasey Ford,1,2,25.0
+PEOPLE,Donald Trump,2,3,17.0
+PEOPLE,Anita Hill,3,4,14.0
+PEOPLE,Clarence Thomas,4,5,13.0
+ORGANIZATION,Supreme Court,0,1,26.0
+ORGANIZATION,Senate,1,2,21.0
+ORGANIZATION,Ford,2,3,20.0
+ORGANIZATION,Senate Judiciary Committee,3,4,19.0
+ORGANIZATION,FBI,4,5,16.0
+THEME,politics and government,0,1,24.0
+THEME,crime and criminals,1,2,23.0
+THEME,sex crimes,2,3,22.0
+THEME,united states politics and government,3,4,18.0
+THEME,women,4,5,15.0
